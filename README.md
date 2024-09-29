@@ -74,13 +74,13 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
      "message": "Error message here"
    }`
 
-### Database Initialization
+## Database Initialization
 
 1. To initialize the database, the API automatically checks if the database exists and creates it if not. You can also manually run the following command to create the database:
    ```bash
    npm run db:init
 
-### Testing the API
+## Testing the API
 
 You can use tools like Postman or Insomnia to test the API endpoints. Here’s how to test the user registration endpoint:
 
