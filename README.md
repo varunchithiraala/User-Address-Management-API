@@ -60,18 +60,20 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 #### Response:
 
 - **200 OK**
-    
-   `{
+     
+   ```bash
+   {
    "message": "User and address registered successfully!"
-   }`
+   }
 
 #### Response:
 
  - **500 Internal Server Error**
-    
-   `{
+
+   ```bash
+   {
      "message": "Error message here"
-   }`
+   }
 
 ## Database Initialization
 
