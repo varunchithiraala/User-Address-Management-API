@@ -6,7 +6,6 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Environment Variables](#environment-variables)
 - [API Endpoints](#api-endpoints)
 - [Database Initialization](#database-initialization)
 - [Testing the API](#testing-the-api)
@@ -51,8 +50,7 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 
 **POST** `/api/user/register`
 
-#### Request Body:
-   `
+#### Request Body: `
    {
    "name": "John Doe",
    "address": "123 Main St, City, Country"
@@ -78,9 +76,8 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 
 ### Database Initialization
 
-To initialize the database, the API automatically checks if the database exists and creates it if not. You can also manually run the following command to create the database:
-
-   ``bash
+1. To initialize the database, the API automatically checks if the database exists and creates it if not. You can also manually run the following command to create the database:
+   ```bash
    npm run db:init
 
 ### Testing the API
