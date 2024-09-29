@@ -59,7 +59,7 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 
 #### Response:
 
-- **200 OK**
+ **200 OK**
    
    {
    "message": "User and address registered successfully!"
@@ -67,7 +67,7 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 
 #### Response:
 
-- **500 Internal Server Error**
+ **500 Internal Server Error**
    
    {
      "message": "Error message here"
