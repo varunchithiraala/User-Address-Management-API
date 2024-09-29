@@ -52,27 +52,27 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 **POST** `/api/user/register`
 
 #### Request Body:
-   ```json
+   `
    {
    "name": "John Doe",
    "address": "123 Main St, City, Country"
-   }
+   }`
 
 #### Response:
 
 **200 OK**
-   ```json
+   `
    {
    "message": "User and address registered successfully!"
-   }
+   }`
 
 #### Response:
 
 **500 Internal Server Error**
-```json
-{
-  "message": "Error message here"
-}
+   `
+   {
+     "message": "Error message here"
+   }`
 
 ### Database Initialization
 
