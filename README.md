@@ -51,11 +51,11 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 **POST** `/api/user/register`
 
 #### Request Body:
-      `
+      
       {
       "name": "John Doe",
       "address": "123 Main St, City, Country"
-      }`
+      }
 
 #### Response:
 
