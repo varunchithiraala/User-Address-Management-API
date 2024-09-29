@@ -23,13 +23,16 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/varunchithiraala/User-Address-Management-API.git
    cd User-Address-Management-API
 2. Install the dependencies:
+
    ```bash
    npm install
 3. Create a `.env` file in the root directory and add the following variables:
+
    ```plaintext
    DB_HOST=your_database_host
    DB_USER=your_database_user
@@ -38,6 +41,7 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
    DB_DIALECT=mysql
    PORT=4000
 4. Start the server:
+
    ```bash
    npm install
 
