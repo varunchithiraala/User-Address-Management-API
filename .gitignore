@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Environment variable files
+.env
+
+# Build output directories
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE or Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Sequelize related files
+migrations/
+seeders/
