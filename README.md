@@ -31,12 +31,12 @@ This project is a RESTful API built using Node.js, Express, and Sequelize, desig
    npm install
 3. Create a `.env` file in the root directory and add the following variables:
    ```plaintext
-DB_HOST=your_database_host
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_NAME=your_database_name
-DB_DIALECT=mysql
-PORT=4000
+   DB_HOST=your_database_host
+   DB_USER=your_database_user
+   DB_PASSWORD=your_database_password
+   DB_NAME=your_database_name
+   DB_DIALECT=mysql
+   PORT=4000
 4. Start the server:
    ```bash
    npm install
